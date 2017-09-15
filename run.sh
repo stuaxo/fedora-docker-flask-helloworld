@@ -2,7 +2,6 @@
 echo ""
 echo "Try visiting endpoints:"
 echo ""
-echo "http://localhost:12345"
 echo "http://localhost:12345/hello"
 echo ""
 echo "Click [ Hello ] and watch stdout below"
