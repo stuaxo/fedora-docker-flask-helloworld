@@ -11,9 +11,9 @@ class FlaskBasicTests(unittest.TestCase):
         pass
 
     def test_for_index_response(self):
-        result = self.app.get('/')
+        result = self.app.get('/hello')
         self.assertEqual(result.status_code, 200)
 
     def test_for_hello_world(self):
-        result = self.app.get('/')
-        self.assertEqual(result.data, "Hello World!")
+        result = self.app.get('/api/hello')
+        self.assertEqual(result.data, "http://i.imgur.com/QsIsjo8.jpg")
