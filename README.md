@@ -13,3 +13,8 @@ Build and run:
 $ ./build.sh
 $ ./run.sh
 ```
+
+Visit endpoint
+--------------
+
+http://localhost:12345/hello
