@@ -1,6 +1,6 @@
 function getHello() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', "/hello");
+    xhr.open('GET', "/api/hello");
     xhr.responseType = 'json';
 
     xhr.onload = function() {
